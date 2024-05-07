@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobs at JavaJam</title>
+    <link rel="stylesheet" href="javajam9/javajam.css">
+</head>
+<body>
+
+    <main id="herojobs">
+        <h2>Jobs at JavaJam</h2>
+        <p>Want to work at JavaJam? Fill out the form below to start your application. <br> Required fields are marked with an asterisk (*).</p>
+
+        <form action="http://webdevbasics.net/scripts/javajam8.php" method="post">
+
+            <!-- Name information -->
+            <div>
+                <label for="myName">* Name:</label>
+                <input type="text" id="myName" name="myName" required>
+            </div>
+
+            <!-- E-mail information -->
+            <div>
+                <label for="myEmail">* E-mail:</label>
+                <input type="email" id="myEmail" name="myEmail" required>
+            </div>
+
+            <!-- Experience area -->
+            <div>
+                <label for="myExperience">* Experience:</label>
+                <textarea id="myExperience" name="myExperience" rows="2" cols="20" required></textarea>
+            </div>
+
+            <!-- Submit button -->
+            <div>
+                <input type="submit" id="mySubmit" value="Apply Now">
+            </div>
+
+        </form>
+    </main>
+
+</body>
+</html>
